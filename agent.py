@@ -17,7 +17,7 @@ async def entrypoint(ctx: JobContext):
     groq_llm = openai.LLM(
         base_url="https://api.groq.com/openai/v1",
         api_key=os.environ.get("GROQ_API_KEY"),
-        model="model="llama-3.1-8b-instant", 
+        model="llama-3.1-8b-instant", 
     )
 
     # The Holy Grail: LiveKit 1.0 Synchronous Voice Orchestrator
